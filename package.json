@@ -1,0 +1,38 @@
+{
+  "name": "gitlab-publish",
+  "description": "publish to gitlab",
+  "version": "0.1.0",
+  "homepage": "https://github.com/geng.cheng/gitlab-publish",
+  "author": {
+    "name": "chunterg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chunterg/gitlab-publish.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chunterg/gitlab-publish/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/chunterg/gitlab-publish/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "fdm build test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0"
+  },
+  "keywords": [
+    "fdmplugin",
+    "gruntplugin"
+  ]
+}
